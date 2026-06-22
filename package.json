@@ -2,6 +2,9 @@
   "name": "click-counter",
   "private": true,
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",
     "@testing-library/react": "11.2.5",
@@ -33,7 +36,7 @@
     "*.js": [
       "npm run lint:fix"
     ],
-    "*.{js, jsx, json, html, css}": [
+    "*.{js,jsx,json,html,css}": [
       "npm run format"
     ]
   },
