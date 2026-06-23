@@ -16,7 +16,9 @@ class ClickCounter extends Component {
           The Button has been clicked <span>{count}</span> times
         </h1>
         <p>Click the button to increase the count</p>
-        <button type="button" onClick={this.onIncrement}>Click Me!</button>
+      <button type="button" onClick={this.onIncrement}>
+  Click Me!
+</button>
       </div>
     )
   }
